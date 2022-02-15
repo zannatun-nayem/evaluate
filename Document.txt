@@ -1,0 +1,21 @@
+Evaluate – Responsive Custom Pricing Table with 6 styles and animation, Based on Bootstrap v5. You can use it on your web site or in your project to showcase your pricing/rate list/service charges, during a distinctive approach. Evaluate is highly customizable – looks awesome on tablets and mobile devices. 
+
+Features List =====
+Pure CSS & HTML
+100% Responsive Layout
+6 Table Styles
+SCSS File Included
+Animated Hover States
+Fontawesome Included
+Google fonts Included
+Documentation Included
+
+Browser Support =====
+Firefox 
+Opera 
+Chrome
+IE10 and Above
+Microsoft Edge
+
+Support
+If you have any queries or need any special customizing or help for using this template please feel free to contact us via info@theThemely.com. If you have a moment, please rate our item, We will love it very much! Thank you.

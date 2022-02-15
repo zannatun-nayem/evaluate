@@ -1,0 +1,48 @@
+/* Global CSS */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  @include body-font;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1.5rem;
+}
+
+section {
+  padding: 6rem 0;
+  .section-title {
+    font-size: 2.75rem;
+    font-weight: 700;
+    color: $theme-color-primary;
+    margin-bottom: 3rem;
+  }
+}
+
+.bg-color-white {
+  background: $bg-color-white;
+}
+
+.bg-color-white {
+  background: $bg-color-white;
+}
+
+.bg-color-light-gray {
+  background: $bg-color-light-gray;
+}
+
+.custom-shadow-sm {
+  @include custom-shadow-sm;
+}

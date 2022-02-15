@@ -1,0 +1,58 @@
+@mixin transition-all() {
+  transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -ms-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+@mixin body-font {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: $theme-color-black;
+}
+
+@mixin btn-custom {
+  text-decoration: none;
+  background: $theme-color-primary;
+  color: $theme-color-white;
+  border: 1px solid $theme-color-primary;
+  border-radius: 10px;
+  padding: 0.75rem 2rem;
+
+  &:hover {
+    background: $theme-color-white;
+    color: $theme-color-primary;
+  }
+}
+
+@mixin btn-custom-inverse {
+  text-decoration: none;
+  background: $theme-color-white;
+  color: $theme-color-primary;
+  border: 1px solid $theme-color-primary;
+  padding: 0.75rem 2rem;
+
+  &:hover {
+    background: $theme-color-primary;
+    color: $theme-color-white;
+  }
+}
+@mixin btn-custom-secondary {
+  text-decoration: none;
+  background: $theme-color-secondery;
+  color: $theme-color-primary;
+  border: 1px solid $theme-color-white;
+  padding: 0.75rem 2rem;
+
+  &:hover {
+    background: $theme-color-primary;
+    color: $theme-color-white;
+    border: 1px solid $theme-color-primary;
+  }
+}
+
+@mixin custom-shadow-sm {
+  box-shadow: 0 3px 12px 4px rgba($theme-color-black, 0.05);
+}

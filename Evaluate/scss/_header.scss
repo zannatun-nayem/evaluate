@@ -1,0 +1,20 @@
+/* Header CSS */
+
+header {
+  background: rgba($bg-color-light-secondery, 0.75);
+  color: $theme-color-primary;
+  text-align: center;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  h1 {
+    text-transform: capitalize;
+  }
+  p {
+    margin-bottom: 2rem;
+  }
+  a {
+    @include btn-custom;
+    @include transition-all;
+  }
+}
